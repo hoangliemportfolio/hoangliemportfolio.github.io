@@ -104,12 +104,13 @@ html {
     justify-content: center;
     align-items: center;
     will-change: transform opacity;
+    
 }
 
 .home__title {
     font-size: 3.5rem;
     margin-bottom: 50px;
-    color: #131313;
+    color: rgb(211, 211, 211);
     animation: appear ease-out 0.7s;
     font-family: Poppins;
     text-transform: uppercase;
@@ -135,8 +136,9 @@ html {
 }
 
 .home__link {
-    background-color: #1f1f1f;
-    color: white;
+    background-color: rgba(225, 225, 225, 0.5);
+    color: #4b0606;
+    font-weight: bolder;
     padding: 15px 0;
     font-size: 2rem;
     text-decoration: none;
@@ -151,8 +153,11 @@ html {
 }
 
 .home__link:hover {
-    background-color:  #084363;
+    background-color:  rgba(97, 29, 57, 0.8);
+    color: #c9c9c9;
     letter-spacing: 3px;
+    font-weight: lighter;
+
 }
 
 
