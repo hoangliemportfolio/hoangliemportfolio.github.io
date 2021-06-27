@@ -236,6 +236,18 @@
 }
 
 @media (max-width: 410px) {
+    .home__container {
+        background-image: url(../img/home_bg_mobile.png);
+    }
+
+    .info__container {
+    background-image: url(../img/info_bg_mobile.png) ; 
+    }
+
+    .port__container {
+        background-image: url(../img/port_bg_mobile.png);
+    }
+
     .port__body-content {
         display: none;
     }
