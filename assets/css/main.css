@@ -183,18 +183,18 @@ html {
 
 .info__container {
     width: 100%;
-    min-height: 100vh;
+    /* min-height: 100vh; */
     display: flex;
     flex-direction: column;
     align-items: center;
     background-image: url(../img/info_bg.png);
     background-size: cover;
-    /* background-attachment: fixed;     */
+    background-attachment: fixed;    
 }
 
 .info__heading {
     width: 100%;
-    position: fixed;
+    position: relative;
 }
 
 .info__title {
@@ -240,16 +240,19 @@ html {
     background-attachment: fixed; */
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-end;
     animation: appear2 ease-in-out 0.5s;
 }
 
 .info__body-personal {
-    height: 550px;
+    /* height: 550px; */
+    position: fixed;
+    left: 55px;
+    top: 50px;
     width: 450px;
     /* background-color: white; */
     border-radius: 20px;
-    margin: 100px 30px 0 0;
+    margin: 100px 0 0 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -271,9 +274,11 @@ html {
 }
 
 .info__body-detail {
-    height: 550px;
-    width: 920px;
-    margin: 100px 0 0 0;
+    /* height: 550px; */
+    width: 60%;
+    margin-left: auto;
+    /* width: 920px; */
+    margin: 40px 40px 0 0;
     display: flex;
     justify-content: space-between;
 }
@@ -288,7 +293,7 @@ html {
 
 .detail-item-content2 {
     width: 100%;
-    height: 60%;
+    /* height: 60%; */
     background-color: rgba(3, 3, 3, 0.6);
     border-top: 1px solid rgba(255, 255, 255, 0.1);
     border-right: 1px solid rgba(255, 255, 255, 0.1);
@@ -296,11 +301,12 @@ html {
     border-radius: 7px;
     padding: 20px;
     cursor: default;
+    margin-bottom: 15px;
 }
 
 .detail-item-content1 {
     width: 100%;
-    height: 38%;
+    /* height: 38%; */
     background-color: rgba(3, 3, 3, 0.6);
     border-top: 1px solid rgba(255, 255, 255, 0.1);
     border-right: 1px solid rgba(255, 255, 255, 0.1);
@@ -308,6 +314,7 @@ html {
     border-radius: 7px;
     padding: 20px;
     cursor: default;
+    margin-bottom: 15px;
 }
 
 .content-title {

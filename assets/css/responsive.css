@@ -31,6 +31,10 @@
     .port__body-content.size2 {
         height: 340px;
     }
+
+    .info__body-personal {
+        left: 0;
+    }
     
 }
 
@@ -84,9 +88,98 @@
     .home__btn {
         flex-wrap: nowrap;
     }
+
+    .info__title {
+        font-size: 2.7rem;
+        padding: 40px 0 10px 0;
+    }
+
+    .info__body-personal {
+        margin: 26px 0 0 0;
+        justify-content: unset;
+        min-width: 200px;
+        position: fixed;
+        left: -74px;
+        top: 52px;
+    }
+
+    .info__body-detail {
+        margin: 32px 0 0 0;
+        width: 60%;
+        margin-left: auto;
+        height: unset;
+    }
+
+    .info-name {
+        font-size: 2.3rem;
+        margin: 20px 0 8px 0;
+    }
+
+    .info__body {
+        padding: 0px 15px;
+        justify-content: space-between;
+    }
+
+    .info-img {
+        width: 150px;
+    }
+
+    .info-position {
+        font-size: 1.5rem;
+    }
+
+    .info__detail-item {
+        width: 100%;
+    }
+
+    .info__body-detail {
+        flex-direction: column;
+        margin-bottom: 50px;
+    }
+
+    .info__detail-item.margin {
+        margin-bottom: 15px;
+    }
+
+    .skill-rate i {
+        font-size: 1.5rem;
+    }
+
+    .info__container {
+        height: unset;
+    }
+
+    .info__heading {
+        position: relative;
+    }
 }
 
-@media (max-width: 750px) {
+@media (max-width: 700px) {
+    .info__container {
+        -webkit-background-size: 100%;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+height: unset;
+    }
+    
+    .info__body-personal {
+        justify-content: unset;
+        min-height: unset;
+    }
+
+    .info__body-personal {
+        position: unset;
+        left: unset;
+    }
+
+    .info__body-detail {
+        margin-left: unset;
+    }
+
+    .info__body {
+        padding: 116px 15px;
+    }
 
     .home__title {
         font-size: 2.4rem;
@@ -111,7 +204,7 @@
     }
 
     .info__title {
-        font-size: 2rem;
+        font-size: 2.5rem;
         margin-left: 20px;
     }
 
@@ -133,6 +226,7 @@
     .info__body-personal {
         width: 320px;
         margin-top: 100px;
+        margin-bottom: 200px;
         margin-right: 0;
     }
 
@@ -161,13 +255,12 @@
     }
 
     .info__detail-item.margin {
-        margin-bottom: 155px;
+        margin-bottom: unset;
     }
 
     .detail-item-content2,
     .detail-item-content1 {
         height: unset;
-        margin-bottom: 10px;
     }
 
     .skill-rate i{
@@ -200,10 +293,12 @@
         line-height: 24px;
         color:rgb(224, 224, 224);
     }
+
+   
 }
 
 
-@media (max-width: 750px) {
+@media (max-width: 700px) {
     .port__navbar-title {
         font-size: 2.5rem;
         margin-top: 10px;
@@ -324,11 +419,12 @@
     }
 
     .info__detail-item.margin {
-        margin-bottom: 250px;
+        margin-bottom: unset;
     }
 
     .info__body-personal {
-        margin-top: 35px;
+        margin-top: 50px;
+        margin-bottom: 100px;
     }
 
     .info__body-detail {
