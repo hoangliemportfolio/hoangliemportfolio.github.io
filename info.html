@@ -190,22 +190,5 @@
         </div>
     </div>
 
-    <script> 
-        $(document).ready(function() {
-        
-        $(window).scroll(function () {
-            //if you hard code, then use console
-          //.log to determine when you want the 
-          var d = $('#jumbo');
-        if ($(window).scrollTop() > d.prop("scrollHeight") ) {
-          $('#nav_bar').addClass('navbar-fixed-top');
-        }
-        if ($(window).scrollTop() < d.prop("scrollHeight")) {
-          $('#nav_bar').removeClass('navbar-fixed-top');
-        }
-        
-        });
-        });
-        </script>
 </body>
 </html>
