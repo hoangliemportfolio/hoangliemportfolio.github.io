@@ -116,7 +116,7 @@
             .info__container {
                 height: unset;
                 background-image: url(../img/info_bg_mobile.png) ;
-                background-attachment: unset;
+                background-attachment: fixed;
             }
 
             .info__heading {
@@ -213,6 +213,14 @@
                 padding: 12px 0;
                 margin: 10px auto;
             }
+            
+            .home__btn :nth-child(1) {
+                animation: appear4-1 ease-out 0.5s;
+            }
+            
+            .home__btn :nth-child(3) {
+                animation: appear3-1 ease-out 0.5s;
+            }
         
 
 
@@ -226,6 +234,7 @@
                 background-size: cover;
                 height: unset;
                 background-image: url(../img/info_bg_mobile.png); 
+                background-attachment: fixed;
             }
 
             .info__body {
@@ -397,6 +406,7 @@
 
         .info__container {
         background-image: url(../img/info_bg_mobile.png) ; 
+        background-attachment: fixed;
         }
         
         
