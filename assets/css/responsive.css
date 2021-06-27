@@ -235,6 +235,16 @@
     }
 }
 
+@media (max-width: 410px) {
+    .port__body-content {
+        display: none;
+    }
+
+    .port__body-content.mobile {
+        display: block;
+    }
+}
+
 
 @media (max-width: 350px) {
     .port__navbar-title {
