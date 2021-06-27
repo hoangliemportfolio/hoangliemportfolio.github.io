@@ -127,6 +127,8 @@
                 padding: 0px 15px;
                 justify-content: space-between;
                 height: unset;
+                margin-bottom: 100px;
+
             }
 
             .info__body-personal {
