@@ -225,7 +225,7 @@ html {
     font-size: 2rem;
     border-radius: 6px;
     transition: ease-in-out 0.2s;
-    opacity: 0.3;
+    opacity: 0.2;
 }
 
 .info__back-link:hover {
@@ -234,21 +234,21 @@ html {
 
 .info__body {
     width: 100%;
-    min-height: 100vh;
+    height: 100vh;
     /* background-image: url(../img/info_bg.jpg);
     background-size: cover;
     background-attachment: fixed; */
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    animation: appear2 ease-in-out 0.5s;
+    /* animation: appear2 ease-in-out 0.5s; */
 }
 
 .info__body-personal {
     /* height: 550px; */
     position: fixed;
     left: 55px;
-    top: 50px;
+    /* top: 50px; */
     width: 450px;
     /* background-color: white; */
     border-radius: 20px;
@@ -259,6 +259,8 @@ html {
     align-items: center;
     padding-bottom: 20px;
     cursor: default;
+    margin-top: -110px;
+    animation: appear2 ease-in-out 0.5s;
 }
 
 .info-name {
@@ -278,9 +280,10 @@ html {
     width: 60%;
     margin-left: auto;
     /* width: 920px; */
-    margin: 40px 40px 0 0;
+    margin: -80px 40px 0 0;
     display: flex;
     justify-content: space-between;
+    animation: appear2 ease-in-out 0.5s;
 }
 
 .info__detail-item {
@@ -299,7 +302,7 @@ html {
     border-right: 1px solid rgba(255, 255, 255, 0.1);
     border-left: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 7px;
-    padding: 20px;
+    padding: 20px 20px 0 20px;
     cursor: default;
     margin-bottom: 15px;
 }
@@ -312,7 +315,7 @@ html {
     border-right: 1px solid rgba(255, 255, 255, 0.1);
     border-left: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 7px;
-    padding: 20px;
+    padding: 20px 20px 0 20px;
     cursor: default;
     margin-bottom: 15px;
 }
