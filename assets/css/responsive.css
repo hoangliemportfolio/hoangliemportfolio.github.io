@@ -115,8 +115,10 @@
 
             .info__container {
                 height: unset;
-                background-image: url(../img/info_bg_mobile.png) ;
-                background-attachment: fixed;
+                background-image: url(../img/info_bg_mobile.png) !important;
+                /* background-image: none; */
+                background-size: cover;
+                background-attachment: fixed !important;
             }
 
             .info__heading {
@@ -127,7 +129,6 @@
                 padding: 0px 15px;
                 justify-content: space-between;
                 height: unset;
-                margin-bottom: 100px;
 
             }
 
@@ -235,8 +236,9 @@
                 -o-background-size: cover;
                 background-size: cover;
                 height: unset;
-                background-image: url(../img/info_bg_mobile.png); 
-                background-attachment: fixed;
+                /* background-image: url(../img/info_bg_mobile.png);  */
+                background-image: none;
+
             }
 
             .info__body {
@@ -407,8 +409,8 @@
     /* Info-------------*/
 
         .info__container {
-        background-image: url(../img/info_bg_mobile.png) ; 
-        background-attachment: fixed;
+            background-image: none;
+        
         }
         
         
