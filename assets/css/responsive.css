@@ -65,8 +65,8 @@
         /* Portfolio-----*/
 
             .port__container {
-                background-image: url(../img/port_bg_mobile.png);
-                background-attachment: unset;
+                background-image: url(../img/port_bg.png);
+                background-attachment: fixed;
             }
 
             .port__heading {
@@ -338,7 +338,7 @@
         /* Portfolio-------------*/
 
             .port__container {
-                background-image: url(../img/port_bg_mobile.png);
+                /* background-image: url(../img/port_bg_mobile.png); */
             }
 
             .port__heading {
@@ -429,7 +429,7 @@
         }
 
         .port__container {
-            background-image: url(../img/port_bg_mobile.png);
+            /* background-image: url(../img/port_bg_mobile.png);s */
         }
 
         .port__body-content {
