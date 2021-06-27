@@ -66,6 +66,7 @@
 
             .port__container {
                 background-image: url(../img/port_bg_mobile.png);
+                background-attachment: unset;
             }
 
             .port__heading {
@@ -115,6 +116,7 @@
             .info__container {
                 height: unset;
                 background-image: url(../img/info_bg_mobile.png) ;
+                background-attachment: unset;
             }
 
             .info__heading {
@@ -225,7 +227,7 @@
                 height: unset;
                 background-image: url(../img/info_bg_mobile.png); 
             }
-            
+
             .info__body {
                 padding: 116px 15px;
                 flex-direction: column;
