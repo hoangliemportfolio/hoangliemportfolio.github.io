@@ -42,13 +42,14 @@
     }
 
     .home__btn {
-        width: 250px;
+        width: 40%;
     }
 
     .home__link {
         font-size: 1.5rem;
         min-width: 110px;
         padding: 12px 0;
+        margin: 10px auto;
     }
 
     .info__heading {
@@ -288,13 +289,14 @@
     }
 
     .home__btn {
-        width: 250px;
+        width: 40%;
     }
 
     .home__link {
         font-size: 1.5rem;
         min-width: 110px;
         padding: 10px 0;
+        margin: 9px auto;
     }
 }
 
