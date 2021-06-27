@@ -257,7 +257,8 @@ html {
 
 .info__body {
     width: 100%;
-    height: 100vh;
+    /* height: 100vh; */
+    height: unset;
     /* background-image: url(../img/info_bg.jpg);
     background-size: cover;
     background-attachment: fixed; */
@@ -265,13 +266,14 @@ html {
     align-items: center;
     justify-content: flex-end;
     /* animation: appear2 ease-in-out 0.5s; */
+    margin-bottom: 200px;
 }
 
 .info__body-personal {
     /* height: 550px; */
     position: fixed;
     left: 55px;
-    /* top: 50px; */
+    top: 260px;
     width: 450px;
     /* background-color: white; */
     border-radius: 20px;
@@ -303,7 +305,7 @@ html {
     width: 60%;
     margin-left: auto;
     /* width: 920px; */
-    margin: -80px 40px 0 0;
+    margin: 40px 40px 0 0;
     display: flex;
     justify-content: space-between;
     animation: appear2 ease-in-out 0.5s;

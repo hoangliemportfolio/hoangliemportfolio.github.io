@@ -115,10 +115,9 @@
 
             .info__container {
                 height: unset;
-                background-image: url(../img/info_bg_mobile.png) !important;
+                background-image: url(../img/info_bg_mobile.png);
                 /* background-image: none; */
-                background-size: cover;
-                background-attachment: fixed !important;
+                background-attachment: unset;
             }
 
             .info__heading {
@@ -236,9 +235,6 @@
                 -o-background-size: cover;
                 background-size: cover;
                 height: unset;
-                /* background-image: url(../img/info_bg_mobile.png);  */
-                background-image: none;
-
             }
 
             .info__body {
@@ -409,7 +405,7 @@
     /* Info-------------*/
 
         .info__container {
-            background-image: none;
+
         
         }
         
