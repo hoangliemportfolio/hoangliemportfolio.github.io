@@ -86,7 +86,7 @@
             }
 
             .port__navbar-list {
-                width: 100%;
+                width: 86%;
                 padding: 0 20px;
             }
 
@@ -96,7 +96,7 @@
             }
 
             .port__navbar-item:hover {
-                letter-spacing: 2px;
+                letter-spacing: 1px;
             }
 
             .port__body-content.size1 {
@@ -351,7 +351,7 @@
             }
 
             .port__navbar-list {
-                width: 340px;
+                width: 88%;
                 overflow: scroll;
                 justify-content: unset;
             }
@@ -425,7 +425,16 @@
         }
 
         .port__navbar-item {
-            padding: 6px 10px;
+            padding: 6px 6px;
+            min-width: 95px;
+            margin: 0 5px;
+        }
+
+        .port__navbar-list {
+            width: 88%;
+            overflow: scroll;
+            justify-content: unset;
+            padding: 0 5px;
         }
 
         .port__container {
@@ -500,16 +509,16 @@
             }
 
             .port__navbar-list {
-                width: 280px;
+                width: 95%;
                 overflow: scroll;
                 justify-content: unset;
-                padding: unset;
+                padding: 0 13px;
             }
 
             .port__navbar-item {
                 font-size: 1.2rem;
-                padding: 10px 10px;
-                min-width: 92px;
+                padding: 5px 6px;
+                min-width: 81px;
             }
 
             .port__heading {
