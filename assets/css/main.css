@@ -439,11 +439,58 @@ html {
     letter-spacing: 3px;
 }
 
-.port__navbar-item.active {
+/* .port__navbar-item.active {
+    background-color: rgba(255, 255, 255, 0.09);
+    border-radius: 8px;
+    color: rgb(125, 149, 228);
+} */
+
+.port__navbar-list.active1 :nth-child(1) {
     background-color: rgba(255, 255, 255, 0.09);
     border-radius: 8px;
     color: rgb(125, 149, 228);
 }
+
+.port__navbar-list.active2 :nth-child(2) {
+    background-color: rgba(255, 255, 255, 0.09);
+    border-radius: 8px;
+    color: rgb(125, 149, 228);
+}
+
+
+.port__navbar-list.active3 :nth-child(3) {
+    background-color: rgba(255, 255, 255, 0.09);
+    border-radius: 8px;
+    color: rgb(125, 149, 228);
+}
+
+
+.port__navbar-list.active4 :nth-child(4) {
+    background-color: rgba(255, 255, 255, 0.09);
+    border-radius: 8px;
+    color: rgb(125, 149, 228);
+}
+
+
+.port__navbar-list.active5 :nth-child(5) {
+    background-color: rgba(255, 255, 255, 0.09);
+    border-radius: 8px;
+    color: rgb(125, 149, 228);
+}
+
+.port__navbar-list.active6 :nth-child(6) {
+    background-color: rgba(255, 255, 255, 0.09);
+    border-radius: 8px;
+    color: rgb(125, 149, 228);
+}
+
+
+
+
+
+
+
+
 
 .port__navbar-title {
     font-size: 3rem;
