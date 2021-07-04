@@ -53,7 +53,9 @@ function scrollItem() {
 
 
 
-
+function preventDefault(e) {
+    e.preventDefault();
+  }
 
 
 

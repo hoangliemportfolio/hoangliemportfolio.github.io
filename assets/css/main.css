@@ -503,6 +503,7 @@ html {
     justify-content: space-between;
     flex-wrap: wrap;
     animation: appear2 ease-in-out 0.5s;
+    scroll-behavior: unset;
 }
 
 .port__body-content {
