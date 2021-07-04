@@ -18,8 +18,8 @@ for (let i = 0; i < activeType.length; i++) {
 
 for (aa = 0; aa < activeType.length; aa++) {
     activeType[aa].addEventListener('click', function(){
+        window.scrollTo({ top: 0, behavior: 'auto' });
         
-
             let productType = this.getAttribute('data-filter');
 
             for (let cc = 0; cc < product.length; cc++) {
@@ -105,7 +105,7 @@ function handleTouchMove(evt) {
                     activeType[k].classList.remove('active');}
                     activeType[a].classList.add('active');
                     scrollItem()
-                    $('html, body').animate({scrollTop:0});
+                     window.scrollTo({ top: 0, behavior: 'auto' });
             } else {
                 if(a == 1){
                     a++;
@@ -113,7 +113,7 @@ function handleTouchMove(evt) {
                         activeType[k].classList.remove('active');}
                         activeType[a].classList.add('active');
                         scrollItem()
-                        $('html, body').animate({scrollTop:0});
+                         window.scrollTo({ top: 0, behavior: 'auto' });
                 } else {
                     if(a == 2){
                         a++;
@@ -123,7 +123,7 @@ function handleTouchMove(evt) {
                             navList.scrollBy(400,0)
                         
                             scrollItem()
-                            $('html, body').animate({scrollTop:0});
+                             window.scrollTo({ top: 0, behavior: 'auto' });
                                
                               
                            
@@ -135,7 +135,7 @@ function handleTouchMove(evt) {
                                 activeType[a].classList.add('active');
   
                                 scrollItem()
-                                $('html, body').animate({scrollTop:0});
+                                 window.scrollTo({ top: 0, behavior: 'auto' });
                                
                         } else {
                             if(a == 4){
@@ -144,7 +144,7 @@ function handleTouchMove(evt) {
                                     activeType[k].classList.remove('active');}
                                     activeType[a].classList.add('active');
                                     scrollItem()
-                                    $('html, body').animate({scrollTop:0});
+                                     window.scrollTo({ top: 0, behavior: 'auto' });
                             // } else {
                             //     if(a == 5){
                             //         a++;
@@ -172,7 +172,7 @@ function handleTouchMove(evt) {
                     activeType[k].classList.remove('active');}
                     activeType[a].classList.add('active');
                     scrollItem()
-                    $('html, body').animate({scrollTop:0});
+                     window.scrollTo({ top: 0, behavior: 'auto' });
             } else {
                 if(a == 4){
                     a--;
@@ -180,7 +180,7 @@ function handleTouchMove(evt) {
                         activeType[k].classList.remove('active');}
                         activeType[a].classList.add('active');
                         scrollItem()
-                        $('html, body').animate({scrollTop:0});
+                         window.scrollTo({ top: 0, behavior: 'auto' });
                 } else {
                     if(a == 3){
                         a--;
@@ -189,7 +189,7 @@ function handleTouchMove(evt) {
                             activeType[a].classList.add('active');
                             navList.scrollBy(-400,0)
                             scrollItem()
-                            $('html, body').animate({scrollTop:0});
+                             window.scrollTo({ top: 0, behavior: 'auto' });
                     } else {
                         if(a == 2){
                             a--;
@@ -197,7 +197,7 @@ function handleTouchMove(evt) {
                                 activeType[k].classList.remove('active');}
                                 activeType[a].classList.add('active');
                                 scrollItem()
-                                $('html, body').animate({scrollTop:0});
+                                 window.scrollTo({ top: 0, behavior: 'auto' });
                         } 
                         else {
                             if(a == 1){
@@ -206,12 +206,12 @@ function handleTouchMove(evt) {
                                     activeType[k].classList.remove('active');}
                                     activeType[a].classList.add('active');
                                     scrollItem()
-                                    $('html, body').animate({scrollTop:0});
+                                     window.scrollTo({ top: 0, behavior: 'auto' });
                             } 
                         else {
                                 if(a == 0){
                                     scrollItem()
-                                    $('html, body').animate({scrollTop:0});
+                                     window.scrollTo({ top: 0, behavior: 'auto' });
                                     }}}
                         //     //     } else {
                         //     //         if(a == 6){
