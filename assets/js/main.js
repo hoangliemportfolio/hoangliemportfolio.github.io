@@ -119,7 +119,7 @@ function handleTouchMove(evt) {
                         for (let k = 0; k < activeType.length; k++){
                             activeType[k].classList.remove('active');}
                             activeType[a].classList.add('active');
-                            navList.scrollBy(340,0)
+                            navList.scrollBy(400,0)
                             scrollItem()
                     } else {
                         if(a == 3){
@@ -176,7 +176,7 @@ function handleTouchMove(evt) {
                         for (let k = 0; k < activeType.length; k++){
                             activeType[k].classList.remove('active');}
                             activeType[a].classList.add('active');
-                            navList.scrollBy(-340,0)
+                            navList.scrollBy(-400,0)
                             scrollItem()
                     } else {
                         if(a == 2){
