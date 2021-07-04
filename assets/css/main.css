@@ -509,7 +509,7 @@ html {
     background-color: #1f1f1f;
     margin: 3.5%;
     box-shadow: 5px 5px 10px #111;
-    animation: appear9 ease-out 0.4s;
+    animation: appear9 ease-out 0.1s;
 }
 
 

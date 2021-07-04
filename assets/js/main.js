@@ -59,9 +59,6 @@ function scrollItem() {
 
 
 
-
-
-
 // Vuốt màn hình -------------------------------------------------
 
 var portBody = document.querySelector('.port__body')
@@ -106,6 +103,7 @@ function handleTouchMove(evt) {
                     activeType[k].classList.remove('active');}
                     activeType[a].classList.add('active');
                     scrollItem()
+                    $('html, body').animate({scrollTop:0});
             } else {
                 if(a == 1){
                     a++;
@@ -113,6 +111,7 @@ function handleTouchMove(evt) {
                         activeType[k].classList.remove('active');}
                         activeType[a].classList.add('active');
                         scrollItem()
+                        $('html, body').animate({scrollTop:0});
                 } else {
                     if(a == 2){
                         a++;
@@ -120,14 +119,21 @@ function handleTouchMove(evt) {
                             activeType[k].classList.remove('active');}
                             activeType[a].classList.add('active');
                             navList.scrollBy(400,0)
+                        
                             scrollItem()
+                            $('html, body').animate({scrollTop:0});
+                               
+                              
+                           
                     } else {
                         if(a == 3){
                             a++;
                             for (let k = 0; k < activeType.length; k++){
                                 activeType[k].classList.remove('active');}
                                 activeType[a].classList.add('active');
+  
                                 scrollItem()
+                                $('html, body').animate({scrollTop:0});
                                
                         } else {
                             if(a == 4){
@@ -136,6 +142,7 @@ function handleTouchMove(evt) {
                                     activeType[k].classList.remove('active');}
                                     activeType[a].classList.add('active');
                                     scrollItem()
+                                    $('html, body').animate({scrollTop:0});
                             // } else {
                             //     if(a == 5){
                             //         a++;
@@ -163,6 +170,7 @@ function handleTouchMove(evt) {
                     activeType[k].classList.remove('active');}
                     activeType[a].classList.add('active');
                     scrollItem()
+                    $('html, body').animate({scrollTop:0});
             } else {
                 if(a == 4){
                     a--;
@@ -170,6 +178,7 @@ function handleTouchMove(evt) {
                         activeType[k].classList.remove('active');}
                         activeType[a].classList.add('active');
                         scrollItem()
+                        $('html, body').animate({scrollTop:0});
                 } else {
                     if(a == 3){
                         a--;
@@ -178,6 +187,7 @@ function handleTouchMove(evt) {
                             activeType[a].classList.add('active');
                             navList.scrollBy(-400,0)
                             scrollItem()
+                            $('html, body').animate({scrollTop:0});
                     } else {
                         if(a == 2){
                             a--;
@@ -185,6 +195,7 @@ function handleTouchMove(evt) {
                                 activeType[k].classList.remove('active');}
                                 activeType[a].classList.add('active');
                                 scrollItem()
+                                $('html, body').animate({scrollTop:0});
                         } 
                         else {
                             if(a == 1){
@@ -193,10 +204,12 @@ function handleTouchMove(evt) {
                                     activeType[k].classList.remove('active');}
                                     activeType[a].classList.add('active');
                                     scrollItem()
+                                    $('html, body').animate({scrollTop:0});
                             } 
                         else {
                                 if(a == 0){
                                     scrollItem()
+                                    $('html, body').animate({scrollTop:0});
                                     }}}
                         //     //     } else {
                         //     //         if(a == 6){
@@ -211,6 +224,7 @@ function handleTouchMove(evt) {
                     }
                 }
             }
+      
         }                       
     } else {
         if ( yDiff > 0 ) {
@@ -218,6 +232,15 @@ function handleTouchMove(evt) {
         } else { 
             /* down swipe */
         }                                                                 
+   
+   
+   
+   
+   
+   
+   
+   
+   
     }
     /* reset values */
     xDown = null;
