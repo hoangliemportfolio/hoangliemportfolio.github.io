@@ -68,6 +68,17 @@ html {
     }
 }
 
+@keyframes appear9 {
+    from {
+        opacity: 0;
+        transform: translateY(-6%);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
 @keyframes appear3 {
     from {
         opacity: 0;
@@ -121,6 +132,27 @@ html {
     }
 }
 
+@keyframes scrollLeft {
+    form {
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes scrollRight {
+    form {
+        opacity: 0;
+        transform: translateX(100px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
 
 
 
@@ -418,6 +450,7 @@ html {
     padding: 0;
     width: 1000px;
     animation: appear2 ease-in-out 0.5s;
+    scroll-behavior: smooth;
 }
 
 .port__navbar-list::-webkit-scrollbar {
@@ -439,50 +472,12 @@ html {
     letter-spacing: 3px;
 }
 
-/* .port__navbar-item.active {
-    background-color: rgba(255, 255, 255, 0.09);
-    border-radius: 8px;
-    color: rgb(125, 149, 228);
-} */
-
-.port__navbar-list.active1 :nth-child(1) {
+.port__navbar-item.active {
     background-color: rgba(255, 255, 255, 0.09);
     border-radius: 8px;
     color: rgb(125, 149, 228);
 }
 
-.port__navbar-list.active2 :nth-child(2) {
-    background-color: rgba(255, 255, 255, 0.09);
-    border-radius: 8px;
-    color: rgb(125, 149, 228);
-}
-
-
-.port__navbar-list.active3 :nth-child(3) {
-    background-color: rgba(255, 255, 255, 0.09);
-    border-radius: 8px;
-    color: rgb(125, 149, 228);
-}
-
-
-.port__navbar-list.active4 :nth-child(4) {
-    background-color: rgba(255, 255, 255, 0.09);
-    border-radius: 8px;
-    color: rgb(125, 149, 228);
-}
-
-
-.port__navbar-list.active5 :nth-child(5) {
-    background-color: rgba(255, 255, 255, 0.09);
-    border-radius: 8px;
-    color: rgb(125, 149, 228);
-}
-
-.port__navbar-list.active6 :nth-child(6) {
-    background-color: rgba(255, 255, 255, 0.09);
-    border-radius: 8px;
-    color: rgb(125, 149, 228);
-}
 
 
 
@@ -514,7 +509,10 @@ html {
     background-color: #1f1f1f;
     margin: 3.5%;
     box-shadow: 5px 5px 10px #111;
+    animation: appear9 ease-out 0.4s;
 }
+
+
 
 .port__body-content.size1 {
     width: 42.5%;
@@ -534,3 +532,20 @@ html {
 .port__body-content.mobile {
     display: none;
 }
+
+
+/* Data-filter sản phẩm ---------------------------------*/
+
+
+/* .port__body-content{
+    display: none;
+} */
+
+
+.port__body-content.hide {
+    display: none !important;
+}
+
+/* .port__body-content.active {
+    display: block;
+} */
