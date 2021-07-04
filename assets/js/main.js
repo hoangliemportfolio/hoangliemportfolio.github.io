@@ -45,6 +45,8 @@ function scrollItem() {
             product[cc].classList.remove('hide')
         }
 
+        
+
     }
 }
 
@@ -103,7 +105,6 @@ function handleTouchMove(evt) {
                 for (let k = 0; k < activeType.length; k++){
                     activeType[k].classList.remove('active');}
                     activeType[a].classList.add('active');
-                    
                     scrollItem()
             } else {
                 if(a == 1){
@@ -118,7 +119,7 @@ function handleTouchMove(evt) {
                         for (let k = 0; k < activeType.length; k++){
                             activeType[k].classList.remove('active');}
                             activeType[a].classList.add('active');
-                            navList.scrollBy(300,0)
+                            navList.scrollBy(340,0)
                             scrollItem()
                     } else {
                         if(a == 3){
@@ -175,7 +176,7 @@ function handleTouchMove(evt) {
                         for (let k = 0; k < activeType.length; k++){
                             activeType[k].classList.remove('active');}
                             activeType[a].classList.add('active');
-                            navList.scrollBy(-300,0)
+                            navList.scrollBy(-340,0)
                             scrollItem()
                     } else {
                         if(a == 2){
