@@ -6,6 +6,12 @@
 
 @media (max-width: 1264px) {
 
+    /* Home----------*/
+        .home__btn {
+            width: 50%;
+        }
+
+
 
     /* Portfolio-----*/
         .port__body-content.size1 {
