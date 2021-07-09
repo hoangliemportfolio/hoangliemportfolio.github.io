@@ -188,7 +188,7 @@ body {
 
 .contact {
     padding: 0 40px;
-    border-right: 1px solid #555; 
+    border-right: 1px solid rgb(167, 167, 167); 
     position: relative;  
 }
 
