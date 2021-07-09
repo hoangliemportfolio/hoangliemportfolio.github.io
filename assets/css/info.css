@@ -67,10 +67,24 @@ body {
     align-items: center;
 }
 
+@keyframes appear {
+    0% {
+        opacity: 0;
+        transform: translateY(-15px);
+        letter-spacing: 6px;
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+        letter-spacing: 5px;
+    }
+}
+
 .title {
     font-size: 5rem;
     color: rgb(218, 218, 218);
     letter-spacing: 5px;
+    animation: appear ease-out 0.7s;
 }
 
 .user {
@@ -100,7 +114,7 @@ body {
 .user__name {
     font-size: 3.2rem;
     margin: 10px 0 0 0;
-    color:#333;
+    color:rgb(36, 36, 36);
 }
 
 .user__position {
@@ -120,6 +134,7 @@ body {
     font-size: 2rem;
     letter-spacing: 2px;
     line-height: 40px;
+    color: rgb(49, 49, 49);
 }
 
 .section-text1 {
