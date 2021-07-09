@@ -25,30 +25,7 @@
 
     
     /* Info-----*/
-        .info__body {
-            padding: 0 50px;
-        }
-
-        .info__body-personal {
-            left: 0;
-        }
-
-        .content-title {
-            color: #0d71a7;
-            font-size: 1.8rem;
-            font-family: Quicksand_bold;
-        }
-        
-        .content-content {
-            font-size: 1.4rem;
-            text-align: justify;
-            line-height: 24px;
-            color: rgb(153, 153, 153);
-        }
-
-        .skill-rate i{
-            font-size: 1rem;
-        }
+       
   
 }
 
@@ -119,81 +96,7 @@
 
          /* Info--------*/
 
-            .info__container {
-                height: unset;
-                background-image: url(../img/info_bg_mobile.png);
-                /* background-image: none; */
-                background-attachment: fixed;
-            }
-
-            .info__heading {
-                position: relative;
-            }
-
-            .info__body {
-                padding: 0px 15px;
-                justify-content: space-between;
-                height: unset;
-
-            }
-
-            .info__body-personal {
-                margin: -10px 0 0 0;
-                justify-content: unset;
-                min-width: 200px;
-                position: fixed;
-                left: -74px;
-                top: 52px;
-            }
-            
-            .info-img {
-                width: 150px;
-            }
-    
-            .info-name {
-                font-size: 2.3rem;
-                margin: 20px 0 8px 0;
-            }           
-    
-            .info-position {
-                font-size: 1.5rem;
-            }
-
-            .info__body-detail {
-                margin: 30px 0 0 0;
-                width: 60%;
-                margin-left: auto;
-                height: unset;
-                flex-direction: column;
-                margin-bottom: 50px;
-            }
-
-            .info__detail-item {
-                width: 100%;
-            }
-
-            .info__detail-item.margin {
-                margin-bottom: 15px;
-            }
-    
-            .skill-rate i {
-                font-size: 1.5rem;
-            }
-
-            .info__title {
-                font-size: 2.7rem;
-                padding: 40px 0 10px 0;
-            }
-            
-            .info__back {
-                top: 15px;
-            }
-                       
-            .info__back-link {
-                padding: 3px 10px;
-                top: -25px;
-            }
-
+        
 
 }
 
@@ -234,112 +137,6 @@
 
         /* Info-------------*/
 
-
-            .info__container {
-                -webkit-background-size: 100%;
-                -moz-background-size: cover;
-                -o-background-size: cover;
-                background-size: cover;
-                height: unset;
-            }
-
-            .info__body {
-                padding: 116px 15px;
-                flex-direction: column;
-                margin-top: -96px;
-                min-height: 2100px;
-                justify-content: unset;
-            }
-
-            .info__heading {
-                position: relative;
-                z-index: 1;
-            }
-    
-            .info__back-link {
-                padding: 3px 10px;
-                top: -25px;
-            }
-
-            .info__body-personal {
-                justify-content: unset;
-                min-height: unset;
-                position: unset;
-                left: unset;
-                width: 320px;
-                margin-top: 100px;
-                margin-bottom: 200px;
-                margin-right: 0;
-            }
-
-            .info-img {
-                width: 200px;
-            }
-
-            .info-name {
-                font-size: 2.5rem;
-                margin: 30px 0 20px 0;
-            }
-        
-            .info-position {
-                font-size: 1.7rem;
-                margin: 0;
-            }
-
-            .info__body-detail {
-                margin-left: unset;
-                flex-direction: column;
-                width: 320px;
-            } 
-
-            .info__title {
-                font-size: 2.5rem;
-                margin-left: 20px;
-            }
-
-            .info__detail-item {
-                width: 100%;
-            }
-
-            .info__detail-item.margin {
-                margin-bottom: unset;
-            }
-
-            .detail-item-content2,
-            .detail-item-content1 {
-                height: unset;
-            }
-
-            .skill-rate i{
-                font-size: 1rem;
-            }
-
-            .detail-item-content1 {
-                background-color: rgba(0, 0, 0, 0.5);
-                border-top: 1px solid #777;
-                border-left: 1px solid #777;
-                border-right: 1px solid #777;
-            }
-
-            .detail-item-content2 {
-                background-color: rgba(0, 0, 0, 0.5);
-                border-top: 1px solid #777;
-                border-left: 1px solid #777;
-                border-right: 1px solid #777;
-            }
-       
-            .content-title {
-                color: #2497d4;
-                font-size: 2rem;
-                font-family: Quicksand_bold;
-            }
-            
-            .content-content {
-                font-size: 1.6rem;
-                text-align: justify;
-                line-height: 24px;
-                color:rgb(224, 224, 224);
-            } 
 
         /* Portfolio-------------*/
 
@@ -410,15 +207,7 @@
 
     /* Info-------------*/
 
-        .info__container {
-
-        
-        }
-        
-        
-        .info__body-detail {
-            margin-top: 80px;
-        }
+     
 
 
 
@@ -498,23 +287,6 @@
 
          /* Info-------------*/
 
-            .info__detail-item {
-                padding: 0 10px;
-            }
-        
-            .info__detail-item.margin {
-                margin-bottom: unset;
-            }
-        
-            .info__body-personal {
-                margin-top: 50px;
-                margin-bottom: 100px;
-            }
-        
-            .info__body-detail {
-                width: 300px;
-                margin-top: 150px;
-            }
 
 
 
