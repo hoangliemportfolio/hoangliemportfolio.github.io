@@ -302,4 +302,8 @@ body {
         margin-bottom: 0;
         border: none;
     }
+
+    .section {
+        background-color: rgb(255, 255, 255);
+    }
 }
