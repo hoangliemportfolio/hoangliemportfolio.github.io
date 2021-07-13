@@ -283,7 +283,7 @@ body {
     }
 
     .section {
-        font-size: 1.4rem;
+        font-size: 1.7rem;
     }
 
     .section-text6 {
@@ -305,5 +305,24 @@ body {
 
     .section {
         background-color: rgb(255, 255, 255);
+    }
+
+    .user__name {
+        font-size: 2.2rem;
+    }
+
+    .user__position {
+        font-size: 1.5rem;
+        line-height: 20px;
+    }
+
+    .software__name {
+        font-size: 1.3rem;
+    }
+
+    .contact__img {
+        height: 15px;
+        width: 14px;
+        margin-left: -1px;
     }
 }
