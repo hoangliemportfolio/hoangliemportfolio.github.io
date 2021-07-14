@@ -133,8 +133,8 @@ body {
     /* border: 1px solid black; */
     margin: 0 20px;
     transition: ease-in-out 0.2s;
-
     cursor: pointer;
+   
 }
 
 .heading-list-item:hover {
@@ -144,6 +144,9 @@ body {
 .heading-item__link {
     text-decoration: none;
     color: rgb(218, 218, 218);
+    /* background-color: red; */
+   display: block;
+    width: 100%;
 }
 
 
