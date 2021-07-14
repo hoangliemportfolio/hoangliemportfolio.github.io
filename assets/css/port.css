@@ -25,15 +25,15 @@ body {
  background-attachment: fixed;
 }
 
-.bg-holder#pic2 {
+.bg-holder#pic111 {
   background-image: url('../img/background/p2.jpg');
   background-size: cover;
   background-repeat: no-repeat;
  background-attachment: fixed;
- height: 60vh;
+ height: 40vh;
 }
 
-.bg-holder#pic3 {
+.bg-holder#pic222 {
     background-image: url('../img/background/p3.jpg');
     background-size: cover;
     background-repeat: no-repeat;
@@ -41,7 +41,7 @@ body {
    height: 60vh;
   }
 
-  .bg-holder#pic4 {
+  .bg-holder#pic {
     background-image: url('../img/background/p8.jpg');
     background-size: cover;
     background-repeat: no-repeat;
@@ -49,7 +49,7 @@ body {
    height: 60vh;
   }
 
-  .bg-holder#pic5 {
+  .bg-holder#pic333 {
     background-image: url('../img/background/p5.jpg');
     background-size: cover;
     background-repeat: no-repeat;
@@ -57,7 +57,7 @@ body {
    height: 60vh;
   }
 
-  .bg-holder#pic6 {
+  .bg-holder#pic444 {
     background-image: url('../img/background/p6.jpg');
     background-size: cover;
     background-repeat: no-repeat;
@@ -65,7 +65,7 @@ body {
    height: 60vh;
   }
 
-  .bg-holder#pic7 {
+  .bg-holder#pic555 {
     background-image: url('../img/background/p7.jpg');
     background-size: cover;
     background-repeat: no-repeat;
