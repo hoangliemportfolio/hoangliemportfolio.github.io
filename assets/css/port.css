@@ -202,7 +202,7 @@ body {
 
 .section-title__wrapper {
     width: 100%;
-    padding: 100px 0 0 0;
+    padding: 55px 0 0 0;
     display: flex;
     justify-content: center;
     border-bottom: 1px solid rgba(0, 0, 0, 0.19);
