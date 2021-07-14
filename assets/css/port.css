@@ -11,6 +11,7 @@ body {
     src: url(../fonts/ZenLoop-Regular.ttf);
 }
 
+
 .bg-holder {
   width: 100%;
   height: 100%;
@@ -20,17 +21,15 @@ body {
   background-image: url("../img/background/p1.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  width: 100%;
-  height: 100vh;
  background-attachment: fixed;
 }
 
 .bg-holder#pic111 {
   background-image: url('../img/background/p2.jpg');
-  background-size: cover;
+  /* background-size: cover;
   background-repeat: no-repeat;
- background-attachment: fixed;
- height: 40vh;
+ background-attachment: scroll; */
+ height: 60vh;
 }
 
 .bg-holder#pic222 {
@@ -41,14 +40,7 @@ body {
    height: 60vh;
   }
 
-  .bg-holder#pic {
-    background-image: url('../img/background/p8.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-   background-attachment: fixed;
-   height: 60vh;
-  }
-
+  
   .bg-holder#pic333 {
     background-image: url('../img/background/p5.jpg');
     background-size: cover;
@@ -158,6 +150,8 @@ body {
     flex-direction: column;
     background-color: rgb(247, 247, 247);
 }
+
+
 
 .section1-text {
     font-size: 5rem;
