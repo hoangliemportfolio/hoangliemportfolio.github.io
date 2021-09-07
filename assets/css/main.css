@@ -169,21 +169,14 @@ html {
     0% {
         opacity: 0;
     }
-    40% {
-        opacity: 20%;
+    10% {
+        opacity: 90%;
     }
-    50% {
+    20% {
         opacity: 3%;
     }
-    60% {
-        opacity: 60%;
-    }
-    70% {
-        opacity: 10%;
-    }
-    90% {
-        opacity: 95%;
-    }
+    
+    
     100% {
         opacity: 100%;
     }
@@ -196,7 +189,7 @@ html {
 .home__container {
     width: 100%;
     height: 100vh;
-    background-color:rgb(17, 17, 17);
+    background-color:rgb(14, 14, 14);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -209,9 +202,9 @@ html {
     color: rgb(155, 155, 155);
     animation: chopchop ease-in-out 2s;
     /* animation: appear ease-out 0.7s; */
-    font-family: Poppins;
+    font-family: Iceberg;
     text-transform: uppercase;
-    letter-spacing: 5px;
+    letter-spacing: 8px;
 }
 
 .home__btn {
@@ -228,7 +221,7 @@ html {
 .home__link1 {
     position: relative;
     opacity: 0;
-    animation: appear4 ease-out 0.8s 1.5s forwards;
+    animation: appear4 ease-out 0.8s 1s forwards;
 }
 
 .dot {
@@ -245,7 +238,7 @@ html {
 .home__link2 {
     position: relative;
     opacity: 0;
-    animation: appear3 ease-out 0.8s 1.5s forwards;
+    animation: appear3 ease-out 0.8s 1s forwards;
 }
 
 
