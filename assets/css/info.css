@@ -41,7 +41,7 @@ body {
 @keyframes rightslide {
     from {
         opacity: 0;
-        transform: translateX(-100px);
+        transform: translateX(100px);
         color: blue;
     }
     to {
@@ -108,7 +108,7 @@ body {
     text-transform: uppercase;
     letter-spacing: 6px;
     position: relative;
-    animation: rightslide1 ease-out 0.4s;
+    animation: rightslide ease-out 0.5s;
 }
 
 .selection__title::before {
@@ -212,7 +212,7 @@ body {
     position: absolute;
     right: 0;
     padding-top: 200px;
-    animation: leftslide ease-out 2s;    
+    animation: rightslide1 ease-out 0.5s;    
 }
 
 .infor_content-part {

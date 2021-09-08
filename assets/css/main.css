@@ -286,7 +286,7 @@ html {
 
 .home__link1:hover, .home__link2:hover {
     /* background-color:  rgba(97, 29, 57, 0.8); */
-    color: rgb(155, 155, 155);
+    color: rgb(155, 155, 155) !important;
     letter-spacing: 5px;
     font-weight: lighter;
 }
