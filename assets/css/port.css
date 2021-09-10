@@ -266,7 +266,7 @@ body {
     background-color:rgb(14, 14, 14);
 
     left: 0;
-    animation: modal linear 0.3s 0.25s forwards;
+    animation: modal ease-out 0.3s 0.25s forwards;
 }
 
 .content__product::after{
@@ -277,7 +277,7 @@ body {
     background-color:rgb(14, 14, 14);
 
     right: 0;
-    animation: modal linear 0.3s 0.25s forwards;
+    animation: modal ease-out 0.3s 0.25s forwards;
 }
 
 @keyframes modal {
