@@ -233,7 +233,10 @@ body {
 .port_content-part {
     padding: 0 100px 0px 150px;
     margin-bottom: 130px;
+    
 }
+
+
 
 .content__title {
     color: rgb(155, 155, 155);
@@ -252,6 +255,39 @@ body {
       justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
+    position: relative;
+}
+
+.content__product::before{
+    content: "";
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    background-color:rgb(14, 14, 14);
+
+    left: 0;
+    animation: modal linear 0.3s 0.25s forwards;
+}
+
+.content__product::after{
+    content: "";
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    background-color:rgb(14, 14, 14);
+
+    right: 0;
+    animation: modal linear 0.3s 0.25s forwards;
+}
+
+@keyframes modal {
+    from {
+        width: 50%;
+        
+    }
+    to {
+        width: 0%;
+    }
 }
 
 .product__size1 {
