@@ -220,17 +220,18 @@ body {
 
 .infor__content {
     width: 75%;
-    height: 100%;
+    /* height: 100%; */
     /* border: 1px solid white; */
     position: absolute;
     right: 0;
+    top: 0;
     padding-top: 200px;
     animation: rightslide1 ease-out 0.5s;    
 }
 
 .infor_content-part {
     padding: 0 100px 0px 150px;
-    margin-bottom: 100px;
+    margin-bottom: 130px;
 }
 
 
