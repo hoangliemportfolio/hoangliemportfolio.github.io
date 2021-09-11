@@ -1,339 +1,101 @@
 
 
 
-
-/* MÀN HÌNH MÁY TÍNH VUÔNG VUÔNG ----------------*/
-
-@media (max-width: 1264px) {
-
-    /* Home----------*/
-        .home__btn {
-            width: 50%;
-        }
-
-
-
-    /* Portfolio-----*/
-        .port__body-content.size1 {
-            height: 340px;
-        }
-        
-        .port__body-content.size2 {
-            height: 340px;
-        }
-
-
-    
-    /* Info-----*/
-       
-  
-}
-
-
-
-
-
-/* MÀN HÌNH MOBILE XOAY NGANG ----------------*/
-
-@media (max-width: 900px) {
-
-        /* Home----------*/
-
-            .home__btn {
-                flex-wrap: nowrap;
-            }
-
-
-
-        /* Portfolio-----*/
-
-            .port__container {
-                background-image: url(../img/port_bg.png);
-                background-attachment: fixed;
-            }
-
-            .port__heading {
-                padding: 20px 0 8px 0;
-            }
-
-            .port__navbar-title {
-                font-size: 2rem;
-                margin-bottom: 5px;
-            }
-
-            .port__body {
-                justify-content: center;
-                padding: 0px 3%;
-                margin-top: 80px;
-                margin-bottom: 36px;
-            }
-
-            .port__navbar-list {
-                width: 86%;
-                padding: 0 20px;
-            }
-
-            .port__navbar-item {
-                padding: 5px 10px;
-                font-size: 1.5rem;
-            }
-
-            .port__navbar-item:hover {
-                letter-spacing: 1px;
-            }
-
-            .port__body-content.size1 {
-                height: 240px;
-                width: 41.5%;
-            }
-
-            .port__body-content.size2 {
-                height: 240px;
-            }
- 
-
-
-
-         /* Info--------*/
-
-        
-
-}
-
-
-
-    /* MÀN HÌNH MOBILE 700px ----------------*/
-
-@media (max-width: 700px) {
-
-        /* Home--------*/
-
-            .home__title {
-                font-size: 2.4rem;
-                letter-spacing: 1px;
-            }
-        
-            .home__btn {
-                width: 45%;
-                flex-wrap: wrap;
-            }
-        
-            .home__link {
-                font-size: 1.5rem;
-                min-width: 110px;
-                padding: 12px 0;
-                margin: 10px auto;
-            }
-            
-            .home__btn :nth-child(1) {
-                animation: appear4-1 ease-out 0.5s;
-            }
-            
-            .home__btn :nth-child(3) {
-                animation: appear3-1 ease-out 0.5s;
-            }
-        
-
-
-        /* Info-------------*/
-
-
-        /* Portfolio-------------*/
-
-            .port__container {
-                /* background-image: url(../img/port_bg_mobile.png); */
-            }
-
-            .port__heading {
-                background-size: 1100px;
-            }
-
-            .port__navbar-title {
-                font-size: 2.5rem;
-                margin-top: 10px;
-            }
-
-            .port__navbar-list {
-                width: 88%;
-                overflow: scroll;
-                justify-content: unset;
-            }
-
-            .port__navbar-item {
-                font-size: 1.5rem;
-                min-width: 110px;
-            }
-
-            .port__navbar-item:hover {
-                letter-spacing: 0px;
-            }
-
-            .port__body {
-                margin-top: 150px;
-            }
-
-            .port__body-content.size1 {
-                width: 100%;
-                height: 240px;
-                margin: 15px 3.5%;
-            }
-
-            .port__body-content.size2 {
-                width: 100%;
-                height: 240px;
-                margin: 15px 3.5%;
-            }
-}
-
-
-
-
  /* MÀN HÌNH MOBILE 500px ----------------*/
 
     @media (max-width: 500px) {
 
     /* Home-------------*/
 
-        .home__container {
-            background-image: url(../img/home_bg_mobile.png);
+        .home__title {
+            font-size: 1.5rem;
+            letter-spacing: 6px;
+            margin-bottom: 20px;
         }
 
-        .update__content{
-            font-size: 1rem;
-            line-height: 2rem;
-            padding-top: 15px;
+        .home__link1, .home__link2 {
+            font-size: 1.8rem;
+            margin: 0 15px;
+        }
+
+        .home__btn {
+            width: 90%;
         }
 
 
-    /* Info-------------*/
-
-     
-
-
-
-     /* Portfolio-------------*/
-
-        .port__navbar-title {
-            font-size: 2rem;
-            margin-top: 10px;
-            margin: 20px 0 20px 0;
-        }
-
-        .port__navbar-item {
-            padding: 6px 6px;
-            min-width: 95px;
-            margin: 0 5px;
-        }
-
-        .port__navbar-list {
-            width: 88%;
-            overflow: scroll;
-            justify-content: unset;
-            padding: 0 5px;
-        }
-
-        .port__container {
-            /* background-image: url(../img/port_bg_mobile.png);s */
-        }
-
-        .port__body-content {
-            display: none;
-        }
-
-        .port__body-content.size1.mobile {
-            width: 100%;
-            height: 240px;
-            margin: 15px 3.5%;
-        }
-
-        .port__body-content.size2.mobile {
-            width: 100%;
-            height: 100px;
-            margin: 15px 3.5%;
-        }
-
-        .port__body-content.mobile {
-            display: block;
-        }
-}
 
 
 
 
-/* MÀN HÌNH MOBILE 350px ----------------*/
+     /* Info-------------*/
 
-    @media (max-width: 350px) {
+     .infor__selection {
+         width: 20px;
+         height: 20px;
+         background-color: red;
+         top: 20px;
+         right: 20px;
+         z-index: 5;
+         left: unset;
+     }
 
-        /* Home-------------*/
+     .infor__selection span {
+         display: none;
+     }
 
-            .home__title {
-                font-size: 2.1rem;
-                letter-spacing: unset;
-            }
-        
-            .home__btn {
-                width: 40%;
-            }
-        
-            .home__link {
-                font-size: 1.5rem;
-                min-width: 110px;
-                padding: 10px 0;
-                margin: 9px auto;
-            }
+     .infor__selection ul {
+        background-color: rgb(14, 14, 14);
+         display: none;
+         position: absolute;
+         top: 20%;
+         padding-left: 20px;
+         right: 0;
+         border-left: 1px solid rgb(92, 92, 92);
+         border-bottom: 1px solid rgb(92, 92, 92);
+
+     }
+
+     .infor__selection:hover ul {
+         display: block;
+     }
+
+     .infor__content {
+         width: 100%;
+         right: unset;
+         left: 0;
+
+     }
+
+     .infor_content-part {
+         padding: 0 40px 0 40px;
+     }
 
 
 
 
-         /* Info-------------*/
 
 
 
 
-        /*Portfolio-------------*/
 
-            .port__navbar-title {
-                font-size: 2rem;
-                margin-top: 10px;
-                margin: 20px 0 20px 0;
-            }
 
-            .port__navbar-list {
-                width: 95%;
-                overflow: scroll;
-                justify-content: unset;
-                padding: 0 13px;
-            }
 
-            .port__navbar-item {
-                font-size: 1.2rem;
-                padding: 5px 6px;
-                min-width: 81px;
-            }
 
-            .port__heading {
-                background-size: 1100px;
-                padding-bottom: 10px;
-            }
 
-            .port__navbar-item:hover {
-                letter-spacing: 0px;
-            }
 
-            .port__body {
-                margin-top: 140px;
-            }
 
-            .port__body-content.size1 {
-                width: 100%;
-                height: 200px;
-                margin: 15px 3.5%;
-            }
-        
-            .port__body-content.size2 {
-                width: 100%;
-                height: 85px;
-                margin: 15px 3.5%;
-            }
-}
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+    }
