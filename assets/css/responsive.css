@@ -196,14 +196,111 @@
 
 
 
+    /* Port-------------*/
+
+    #bangron:target {
+        padding-top: 12rem;
+    }
+    
+    #danhthiep:target {
+        padding-top: 12rem;
+    }
+    
+    #menu:target {
+        padding-top: 12rem;
+    }
+    
+    #voucher:target {
+        padding-top: 12rem;
+    }
+    
+    #mauve:target {
+        padding-top: 12rem;
+    }
+
+
+    
+    .port__selection {
+        width: 40px;
+        height: 40px;
+        border: 1px rgb(66, 66, 66) solid;
+        top: 20px;
+        right: 20px;
+        z-index: 5;
+        left: unset;
+        transition: ease-out 0.2s;
+        padding: unset;
+        background-color: rgb(14, 14, 14);
+        /* background-color: red; */
+    }
+
+    .port__selection::after {
+        content: "...";
+        position: relative;
+        color: rgb(155, 155, 155);
+
+        width: 38px;
+        height: 40px;
+        /* border: 1px solid red; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 2.7rem;
+    }
+
+
+    .port__selection span {
+        display: none;
+    }
+
+    .port__selection ul {
+        background-color: rgb(14, 14, 14);
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         flex-direction: column;
+         position: absolute;
+         top: -20px;
+         padding-left: 20px;
+         right: -20px;
+         border-left: 1px solid rgb(30, 23, 56);
+         /* border-bottom: 1px solid rgb(92, 92, 92); */
+        height: 100vh;
+        margin-top: 0;
+        animation: menu ease-out 0.2s ;
+       
+        display: none;
+        
+     }
 
 
 
+     .port__selection ul::before {
+        content: "";
+        width: 180px;
+        height: 30px;
+        /* background-color: red; */
+        position: absolute;
+        top: -11%;
+        right: 0;
+    }
 
+    .port__selection:hover ul {
+        display: flex;
 
+    }
 
+    .port__content {
+        width: 100%;
+        right: unset;
+        left: 0;
+        padding-top: 115px;
 
+    }
 
+    .port_content-part {
+        padding: 0 40px 0 40px;
+    }
 
 
 
