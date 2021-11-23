@@ -300,6 +300,11 @@ body {
     margin-bottom: 17px;
 }
 
+.product__size3 {
+    width: 32.1%;
+    margin-bottom: 17px;
+}
+
 #bangron:target {
     padding-top: 20rem;
 }
