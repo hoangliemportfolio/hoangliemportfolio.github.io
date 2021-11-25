@@ -325,7 +325,11 @@ body {
     padding-top: 20rem;
 }
 
-#mauve:target {
+#logo:target {
+    padding-top: 20rem;
+}
+
+#poster:target {
     padding-top: 20rem;
 }
 
