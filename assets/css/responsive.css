@@ -123,6 +123,11 @@
  animation: unset;
 }
 
+.selection__item:nth-child(6) a{
+    opacity: 1;
+ animation: unset;
+}
+
      .infor__selection ul::before {
          content: "";
          width: 180px;
@@ -214,7 +219,11 @@
         padding-top: 12rem;
     }
     
-    #mauve:target {
+    #poster:target {
+        padding-top: 12rem;
+    }
+
+    #logo:target {
         padding-top: 12rem;
     }
 
