@@ -128,7 +128,7 @@ body {
     content: "";
     position: absolute;
     width: 1px;
-    height: 340px;
+    height: 392px;
     background-color:rgb(53, 53, 53);
     left: -30px;
     top: -3px;
@@ -171,6 +171,10 @@ body {
 }
 
 .selection__item:nth-child(6) a{
+    animation: rightslide ease-out 0.5s 0.4s forwards;
+}
+
+.selection__item:nth-child(7) a{
     animation: rightslide ease-out 0.5s 0.4s forwards;
 }
 
@@ -330,6 +334,10 @@ body {
 }
 
 #poster:target {
+    padding-top: 20rem;
+}
+
+#khac:target {
     padding-top: 20rem;
 }
 

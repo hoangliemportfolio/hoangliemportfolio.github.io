@@ -128,6 +128,11 @@
  animation: unset;
 }
 
+.selection__item:nth-child(7) a{
+    opacity: 1;
+ animation: unset;
+}
+
      .infor__selection ul::before {
          content: "";
          width: 180px;
@@ -224,6 +229,10 @@
     }
 
     #logo:target {
+        padding-top: 12rem;
+    }
+
+    #khac:target {
         padding-top: 12rem;
     }
 
