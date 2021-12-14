@@ -78,9 +78,27 @@ html {
     src: url(../fonts/Raleway-Bold.ttf);
 }
 
-:root {
-    --primary-color: #094566;
+@font-face {
+    font-family: Raleway-bold;
+    src: url(../fonts/Raleway-Bold.ttf);
 }
+
+@font-face {
+    font-family: Baloo-light;
+    src: url(../fonts/BalooBhaijaan2-Regular.ttf);
+}
+
+@font-face {
+    font-family: Baloo;
+    src: url(../fonts/BalooBhaijaan2-Medium.ttf);
+}
+
+
+
+
+
+
+
 
 @keyframes appear {
     from {
@@ -268,7 +286,7 @@ html {
 .home__link1 {
     position: relative;
     opacity: 0;
-    animation: appear4 ease-out 0.7s 0.3s forwards;
+    animation: appear4 ease-out 0.45s 0.3s forwards;
 }
 
 .dot {
@@ -276,7 +294,7 @@ html {
     border: solid;
     border-width: 5px 7px;
     border-color: transparent transparent  transparent rgb(155, 155, 155);
-    top: 50%;
+    top: 48%;
     transform: translateY(-50%);
     left: -5px;
     display: none;  
@@ -286,7 +304,7 @@ html {
 .home__link2 {
     position: relative;
     opacity: 0;
-    animation: appear3 ease-out 0.7s 0.3s forwards;
+    animation: appear3 ease-out 0.45s 0.3s forwards;
 }
 
 
@@ -296,7 +314,7 @@ html {
     font-weight: bolder;
     padding: 15px 10px;
     margin: 0 20px;
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     text-decoration: none;
     border-radius: 50px;
     min-width: 120px;
@@ -306,10 +324,10 @@ html {
     user-select: none;
     -webkit-user-select: none;
     -webkit-tap-highlight-color: transparent;
-    font-family: Raleway;
+    font-family: Baloo;
     text-transform: uppercase;
     font-weight: lighter;
-    letter-spacing: 3px;
+    letter-spacing: 2px;
 }
 
 .home__link1:hover, .home__link2:hover {
