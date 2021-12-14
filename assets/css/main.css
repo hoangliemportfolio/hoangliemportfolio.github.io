@@ -53,6 +53,31 @@ html {
     src: url(../fonts/Iceberg-Regular.ttf);
 }
 
+@font-face {
+    font-family: Barlow-light;
+    src: url(../fonts/Barlow-Light.ttf);
+}
+
+@font-face {
+    font-family: Barlow-extralight;
+    src: url(../fonts/Barlow-ExtraLight.ttf);
+}
+
+@font-face {
+    font-family: Barlow;
+    src: url(../fonts/Barlow-Medium.ttf);
+}
+
+@font-face {
+    font-family: Raleway;
+    src: url(../fonts/Raleway-Medium.ttf);
+}
+
+@font-face {
+    font-family: Raleway-bold;
+    src: url(../fonts/Raleway-Bold.ttf);
+}
+
 :root {
     --primary-color: #094566;
 }
@@ -99,7 +124,7 @@ html {
     100% {
         opacity: 1;
         transform: translateX(0);
-        color: rgb(82, 82, 82);
+        color: rgb(95, 95, 95);
     }
 }
 
@@ -112,7 +137,10 @@ html {
     to {
         opacity: 1;
         transform: translateX(0);
-        color: rgb(82, 82, 82);
+        color: rgb(95, 95, 95);
+
+  
+
     }
 }
 
@@ -169,26 +197,22 @@ html {
     }
 }
 
-@keyframes chopchop {
+@keyframes slide {
     0% {
         opacity: 0;
+        transform: translateX(-100px) translateY(60px);
     }
-    5% {
-        opacity: 90%;
+    50% {
+        opacity: 1;
+        transform: translateX(12px) translateY(60px);
     }
-    10% {
-        opacity: 3%;
+    70% {
+        opacity: 1;
+        transform: translateX(12px) translateY(60px);
     }
-    15% {
-        opacity: 95%;
-    }
-    20% {
-        opacity: 3%;
-    }
-    
-    
     100% {
-        opacity: 100%;
+        opacity: 1;
+        transform: translateX(12px) translateY(0px);
     }
 }
 
@@ -208,7 +232,10 @@ html {
 .home__container {
     width: 100%;
     height: 100vh;
-    background-color:rgb(14, 14, 14);
+    /* background-color:rgb(14, 14, 14); */
+    background-image: url(../img/Background/new-background.png);
+    background-size: cover;
+    background-blend-mode: multiply;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -216,15 +243,16 @@ html {
 }
 
 .home__title {
-    font-size: 2.3rem;
-    margin-bottom: 30px;
-    color: rgb(155, 155, 155);
-    animation: chopchop ease-in-out 2s;
+    font-size: 5rem;
+    margin-bottom: 40px;
+    color: rgb(255, 255, 255);
+    animation: slide ease-in-out 0.5s forwards;
     /* animation: appear ease-out 0.7s; */
-    font-family: Iceberg;
+    font-family: Raleway-bold;
     text-transform: uppercase;
-    letter-spacing: 8px;
+    letter-spacing: 38px;
 }
+
 
 .home__btn {
     display: flex;
@@ -240,7 +268,7 @@ html {
 .home__link1 {
     position: relative;
     opacity: 0;
-    animation: appear4 ease-out 0.8s 1s forwards;
+    animation: appear4 ease-out 0.7s 0.3s forwards;
 }
 
 .dot {
@@ -258,17 +286,17 @@ html {
 .home__link2 {
     position: relative;
     opacity: 0;
-    animation: appear3 ease-out 0.8s 1s forwards;
+    animation: appear3 ease-out 0.7s 0.3s forwards;
 }
 
 
 .home__link1,.home__link2 {
     /* background-color: rgba(225, 225, 225, 0.5); */
-    color: rgb(82, 82, 82);
+    color: rgb(255, 255, 255);
     font-weight: bolder;
     padding: 15px 10px;
     margin: 0 20px;
-    font-size: 2rem;
+    font-size: 1.5rem;
     text-decoration: none;
     border-radius: 50px;
     min-width: 120px;
@@ -278,15 +306,15 @@ html {
     user-select: none;
     -webkit-user-select: none;
     -webkit-tap-highlight-color: transparent;
-    font-family: Iceberg;
-    /* font-family: Baumans; */
+    font-family: Raleway;
+    text-transform: uppercase;
     font-weight: lighter;
-    letter-spacing: 2px;
+    letter-spacing: 3px;
 }
 
 .home__link1:hover, .home__link2:hover {
     /* background-color:  rgba(97, 29, 57, 0.8); */
-    color: rgb(155, 155, 155) !important;
+    color: rgb(252, 252, 252) !important;
     letter-spacing: 5px;
     font-weight: lighter;
 }
