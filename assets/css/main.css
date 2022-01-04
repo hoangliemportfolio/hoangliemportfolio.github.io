@@ -135,18 +135,27 @@ html {
     0% {
         opacity: 0;
         transform: translateX(-100px) translateY(60px);
+        /* color: rgb(255, 0, 212); */
+
     }
     50% {
         opacity: 1;
         transform: translateX(12px) translateY(60px);
+        color: rgb(255, 0, 212);
+
+
     }
     70% {
         opacity: 1;
         transform: translateX(12px) translateY(60px);
+        color: rgb(223, 223, 223);
+
     }
     100% {
         opacity: 1;
         transform: translateX(12px) translateY(0px);
+        color: rgb(223, 223, 223);
+
     }
 }
 
@@ -166,19 +175,20 @@ html {
     width: 100%;
     height: 100vh;
     /* background-color:rgb(14, 14, 14); */
-    background-image: url(../img/Background/new-background.png);
+    /* background-image: url(../img/Background/new-background.png);
     background-size: cover;
-    background-blend-mode: multiply;
+    background-blend-mode: multiply; */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: rgb(5, 5, 5);
 }
 
 .home__title {
     font-size: 5rem;
     margin-bottom: 40px;
-    color: rgb(255, 255, 255);
+    color: rgb(223, 223, 223);
     animation: slide ease-in-out 0.5s forwards;
     /* animation: appear ease-out 0.7s; */
     font-family: Raleway-bold;
